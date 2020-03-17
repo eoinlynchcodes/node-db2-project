@@ -11,6 +11,9 @@ module.exports = {
     migrations: {
       directory: './data/migrations'
     },
-    seeds: '/seeds'
+    seeds: {
+      directory: './data/seeds'
+    }
   },
+
 };
